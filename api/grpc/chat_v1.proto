@@ -5,7 +5,7 @@ package note_v1;
 import "google/protobuf/timestamp.proto";
 import "google/protobuf/empty.proto";
 
-option go_package = "github.com/irootpro/chat-auth/pkg/servers/grpc/chat_v1;chat_v1";
+option go_package = "github.com/irootpro/chat-server/pkg/servers/grpc/chat_v1;chat_v1";
 
 service Chat_V1 {
  rpc Create(CreateRequest) returns (CreateResponse); 
